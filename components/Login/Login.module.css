@@ -1,0 +1,97 @@
+.master {
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-width: 350px;
+    margin-left: 32px;
+}
+
+.container {
+    border: 1px solid var(--light-grey);
+    min-width: 100%;
+    padding: 3rem 0 0 0;
+}
+
+.login {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.logo {
+    margin-bottom: 32px;
+}
+
+.login > input {
+    border: 1px solid var(--light-grey);
+    border-radius: 4px;
+    background-color: var(--lighter-grey);
+    margin-bottom: 4px;
+    min-width: 75%;
+    min-height: 30px;
+}
+
+.loginButton {
+    margin-top: 4px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    min-width: 75%;
+    color: var(--white-text);
+    background-color: var(--light-blue);
+    font-weight: 700;
+}
+
+.facebook {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.facebook p {
+    font-size: medium;
+    color: var(--fb-blue);
+    margin-left: 4px;
+}
+
+.forgotPass {
+    font-size: small;
+    font-weight: 100;
+}
+
+.alt {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.or {
+    color: var(--light-grey)
+}
+
+.signup {
+    margin-top: 16px;
+    min-width: 100%;
+    border: 1px solid var(--light-grey);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: 700;
+    color: var(--light-blue);
+}
+
+@media (max-width: 500px) {
+    .container {
+        border: none;
+    }
+    .signup {
+        border: none;
+    }
+    .master {
+        margin-left: 0;
+    }
+}
