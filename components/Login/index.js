@@ -8,8 +8,8 @@ export default function Login() {
             <div className={styles.container}>
                 <div className={styles.login}>
                     <div className={styles.logo}><Image src={'/images/logo.png'} width={180} height={55}/></div>
-                    <input/>
-                    <input/>
+                    <input placeholder='Phone number, username, or email'/>
+                    <input placeholder='Password'/>
                     <button className={styles.loginButton}>Log In</button>
                 </div>
                 <div className={styles.alt}>
